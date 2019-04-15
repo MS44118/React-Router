@@ -4,7 +4,7 @@ class Product extends Component {
   render(){
     return(
       <div>
-        {this.props.match.params.productNumber}
+        <p>{this.props.match.params.productNumber}</p>
       </div>
     );
   }

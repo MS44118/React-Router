@@ -17,7 +17,7 @@ class App extends Component {
           <header className="App-header">
             <NavBar /> 
             <Switch>
-              <Route exact path="/" component={Home}/>  {/* the slash+exact means "only the main page" of the website */}
+              <Route exact path="/" component={Home} />  {/* the slash+exact means "only the main page" of the website */}
               <Route path="/notre-histoire" component={History} />
               <Route path="/about" component={About} /> 
               <Route path="/contact" component={Contact} /> 
